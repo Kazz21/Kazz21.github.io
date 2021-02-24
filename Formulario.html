@@ -1,0 +1,87 @@
+<html>
+    <head>
+         <title> Formulário  </title>
+	 <meta charset="UTF-8"> 
+	<link href="style.css" type="text/css" rel="Stylesheet">
+	<script language="javascript" src="Script.js"></script>
+    </head>
+
+    <body>
+	<h2> Formulário
+	
+	<form method="post" id="inscricao" action="mailto:impetusteam999@gmail.com" oninput="ranks();">
+		
+		<fieldset><legend>Identificação do jogador</legend>
+			<p>Nome: <input type="text" name="nnome" id="inome" size="80" maxlegnth="90" placeholder="Nome Completo"</p>
+			<p>Password: <input type="password" name="tpassword" id="ipassword" size="28" maxlength="10" placeholder="Insere uma password até 10 dígitos"></p>
+			<p>Email: <input type="email" name="temail" id="iemail" size="31" maxlength="60" placeholder="Insere o teu email pessoal"> </p>
+			<p><fieldset><legend>Género:</legend> 
+			<p><input type="radio" name="tgenero" id="iMasc"> <label for="iMasc">Masculino</p></label>
+			<p><input type="radio" name="tgenero" id="iFem"> <label for="iFem">Feminino</fieldset></p></label>
+			<p>Data de nascimento: <input type="date" name="tnasc" id="inasc"></p>
+		</fieldset>
+		
+		<fieldset><legend>Morada do jogador</legend>
+			<p>Rua: <input type="text" name="trua" id"irua" size="60" maxlength="80" placeholder="Insere o nome da tua rua"></p>
+			<p>Número: <input type="number" name="tnum" id"inum" min="0" max="99999"></p>
+			<p>Código Postal: <input type="number" name="tcp" id="icp" min="0" max="9999"> - <input type="number" name="tcp2" id"icp2" min="0" max="999"> </p>
+			<p>Localidade: <input type="text" name="tlc" id="ilc" min="60" maxlength="80" placeholder="Localidade" list="localidades"></p>
+			<datalist id="localidades">
+				<option value="Lisboa"></option>
+				<option value="Senhor de Matosinhos"></option>
+				<option value="Maia"></option>
+				<option value="Porto"></option>
+				<option value="Póvoa de Varzim"></option>
+				<option value="Senhora da Hora"><option>
+				<option value="Trofa"></option>
+			</datalist>
+		</fieldset>
+		<fieldset><legend>Gostarias de fazer parte da nossa equipa?</legend>
+			<p><input type="checkbox" name="tped" id="iped"> <label for="iped">Sim, Gostaria de fazer parte da vossa equipa:</label></p>
+			<p>Escolhe o role:</p>
+			<p><input type="radio" name="tawper" id="iawper"> <label for="iawper">Awper</p></label>
+			<p><input type="radio" name="tancora" id="iancora"> <label for="iancora">Âncora</p></label>
+			<p><input type="radio" name="tentryfragger" id="ientryfragger"> <label for="ientryfragger">Entry-Fragger</p></label>
+			<p><input type="radio" name="tfragger" id="ifragger"> <label for="ifragger">Fragger</p></label>
+			<p><input type="radio" name="tigl" id="iigl"> <label for="iigl">In-Game-Leader</p></label>
+			<p><input type="radio" name="tsupport" id="isupport"> <label for="isupport">Support</p></label>
+			<p><input type="radio" name="tsawper" id="isawper"> <label for="isawper">Second-Awper</p></label>
+		<fieldset><legend><label for="rank">Qual o teu rank?</label></legend>
+			<p>Rank: <select name="irank" id="trank">
+					<option>Unranked</option>
+					<option>Silver 1<img src="s1.png"></option>
+					<option>Silver 2</option>
+					<option>Silver 3</option>
+					<option>Silver Elite</option>
+					<option>Silver Elite Master</option>
+					<option>Gold Nova 1</option>
+					<option>Gold Nova 2</option>
+					<option>Gold Nova 3</option>
+					<option>Gold Nova Master</option>
+					<option>Master Guardian 1</option>
+					<option>Master Guardian 2</option>
+					<option>Distinguished Master Guardian</option>
+					<option>Legendary Eagle</option>
+					<option>Legendary Eagle Master</option>
+					<option>Supreme Master First Class</option>
+					<option>Global Elite</option>
+			</select>
+
+			
+			<p>Mensagem: <input type="text" name="xrank" id="yrank" placeholder="Mensagem após seleção" readonly="true" style="width:200"></p>
+		</fiedlset>
+		<fieldset><legend>Observações:</legend>
+			<p>Mensagem: <textarea name="tmsg" id="imsg" cols="45" rows="5" placeholder="Aqui podes adicionar informações sobre a tua candidatura (horários,contas secundárias,etc)"></textarea></p>
+		</fieldset>
+		<p></p>
+		Podes ainda, fazer a tua candidatura num outro formato, se preferires, selecionar o ficheiro e enviares!
+		<p><input type="file"/></p>
+		<center><a href="Meu site 2.0.html"><img src="setaesquerda.jpeg" height="100px"></center>
+		<input type="submit" value="Enviar"></h2> 
+	</form>
+		
+    </body>
+
+
+
+</html>

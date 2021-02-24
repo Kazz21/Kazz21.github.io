@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	font-size: 200%;
+}
+
+h1{
+	font-family: Lucida Calligraphy;
+	font-size: 200%;
+	color:#008080;
+	background-color:#f0ecfe;
+	border:2px solid red;
+}
+
+h2{
+	font-family: Segoe Print;
+	font-size: 76%;
+	text-align:left
+}
+
+#primeirop{
+	font-weight: bold;
+	color:#008080;
+	background-color:#f0ecfe;
+	font-family:Lucida Calligraphy;
+}	
+
+#legenda{
+	font-size:60%;
+}
+
+figure{
+	border: thin grey solid;
+	width: 70%;
+
+}
+
+#Menu{
+	display: block;
+}
+
+#Menu li:Hover {
+	background-color: #d6f5f5;
+	text-decoration:underline;
+}
+
+#frame{
+	width: 1800px;
+	height: 500px;
+	border: none;
+	overflow: hidden;
+}
+
+ul{
+	position:absolute;
+	top:100px;
+	left:2px;
+
+}
+
+li{
+	display: inline;
+	background-color:#f0ecfe;
+	margin-right: 20px;
+	padding:2px;
+	list-style-type: none;
+}
+
+li a{
+	text-decoration:none;
+}
+
+#Sobrenos{
+	margin-top:170px;
+	text-indent: 15pt;
+}
+
+th{
+	text-align: center;
+}
+
+input:hover, textarea:hover{
+		background-color: lightblue;
+}
+
+footer{
+	border-top:thin solid grey;
+}
